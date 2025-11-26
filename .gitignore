@@ -1,0 +1,158 @@
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Python packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+sdist/
+.wheel/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb_convert
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+ pytest_cache/
+.pytest_cache/
+
+# MyPy, Pylint, etc.
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# -------------------------
+# ANACONDA / CONDA
+# -------------------------
+*.conda
+*.yaml
+*.yml
+conda-meta/
+anaconda_projects/
+
+# -------------------------
+# MACOS SYSTEM
+# -------------------------
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# =========================
+# WINDOWS SYSTEM
+# =========================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# -------------------------
+# VS CODE
+# -------------------------
+.vscode/
+.history/
+*.code-workspace
+
+# -------------------------
+# LOGS
+# -------------------------
+*.log
+*.pid
+*.seed
+*.log.json
+
+# -------------------------
+# ARCHIVES
+# -------------------------
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.iso
+
+# -------------------------
+# NODE (если вдруг будет)
+# -------------------------
+node_modules/
+npm-debug.log
+
+# -------------------------
+# EDITORS
+# -------------------------
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# -------------------------
+# RANDOM / TEMP
+# -------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.cache/
+tmp/
+temp/
+logs/
+output/
+results/
+
+# -------------------------
+# PROJECT-SPECIFIC
+# -------------------------
+# add more below if needed
